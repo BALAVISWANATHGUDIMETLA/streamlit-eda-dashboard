@@ -38,7 +38,7 @@ if section == "📁 Upload File":
 
 # --- DASHBOARD SECTION ---
 if section == "📊 Dashboard":
-    st.title("BALA VISWANATH GUDIMETLA'S 📊 Model Training Dashboard")
+    st.title("📊 Model Training Dashboard")
     df = load_data()
     if df is not None:
         min_loss_row = df.loc[df['Loss'].idxmin()]
